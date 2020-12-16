@@ -21,6 +21,11 @@ const routes = [
     name: "Test",
     component: () => import("../views/Test.vue"),
   },
+  {
+    path: "/canoal",
+    name: "Canoal",
+    component: () => import("../views/Canoal.vue"),
+  },
 ];
 
 const router = new VueRouter({
