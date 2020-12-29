@@ -1,5 +1,7 @@
 module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ]
-}
+  transpileDependencies: ["vuetify"],
+  devServer: {
+    disableHostCheck: true,
+  },
+  publicPath: process.env.NODE_ENV === "production" ? "/my-project/" : "/",
+};

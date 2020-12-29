@@ -7,18 +7,18 @@
         </div>
 
         <v-spacer></v-spacer>
-        <RightHalf></RightHalf>
+        <!-- <RightHalf></RightHalf> -->
       </v-row>
     </div>
   </v-app-bar>
 </template>
 
 <script>
-import RightHalf from "./RightHalf";
+// import RightHalf from "./RightHalf";
 export default {
   name: "AceHeader",
   components: {
-    RightHalf,
+    // RightHalf,
   },
 };
 </script>

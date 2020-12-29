@@ -26,6 +26,11 @@ const routes = [
     name: "Canoal",
     component: () => import("../views/Canoal.vue"),
   },
+  {
+    path: "/mobile",
+    name: "Mobile",
+    component: () => import("../views/Mobile.vue"),
+  },
 ];
 
 const router = new VueRouter({

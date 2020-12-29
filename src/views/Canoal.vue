@@ -22,7 +22,7 @@ export default {
   mounted() {
     const ref = this.$refs.can;
     this.canvas = new fabric.Canvas(ref, {
-      backgroundColor: "#010332",
+      backgroundColor: "#123456",
       backgroundImage:
         "https://media.discordapp.net/attachments/735600055217815706/785509985899118602/redtshirt.png?width=650&height=650",
       selectionColor: "white",
